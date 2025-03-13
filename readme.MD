@@ -72,8 +72,8 @@ This project implements an **AI-powered Snake Game** 🎮 using **Deep Q-Learnin
 
 ### 1️⃣ Clone the repository ⬇️  
 ```bash
-git clone https://github.com/dataharis/ai-snake-game-dqn.git  
-cd ai-snake-game-dqn  
+git clone https://github.com/dataharis/ai-powered-snake-game.git
+cd ai-powered-snake-game  
 ```
 
 ### 2️⃣ Install dependencies 📦  
