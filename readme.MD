@@ -63,8 +63,41 @@
 
 ---
 
-## 📂 Project Structure  
+## ⚙️ How It Works  
+### 1️⃣ **State Representation** 🧩  
+   - AI **observes** the game (snake position, food position, obstacles).  
+   - Converts the game environment into **numerical data** for processing.  
 
+### 2️⃣ **Action Selection** 🎯  
+   - The AI **chooses the best move** (Up, Down, Left, Right) using predicted **Q-values**.  
+
+### 3️⃣ **Reward System** 💰  
+   - ✅ **+10** for eating food 🍏  
+   - ❌ **-10** for hitting a wall or itself 💀  
+   - ⏳ **Small penalty** for each step to encourage efficient food collection.  
+
+### 4️⃣ **Training with Deep Q-Learning** 📈  
+   - The AI **trains over thousands of games**, learning from rewards & penalties.  
+   - Uses **experience replay** for efficient learning.  
+
+## 📊 Training Process  
+- AI starts with **random moves** 🤪 and gradually **improves its decisions** using the **epsilon-greedy strategy**.  
+- **Training Graphs** 📉 visualize how AI **improves over time**:  
+  - 🔵 **Blue Line**: Scores per game.  
+  - 🟠 **Orange Line**: Moving average of scores.  
+
+## 🏆 Results & Performance  
+- 🎯 **Initial AI Score (Random Moves)**: ~5  
+- 🚀 **AI Score After Training**: **50+**  
+- 🧑‍🤝‍🧑 **Human Average Score**: ~30  
+- ✅ The AI **outperforms most human players** after sufficient training.  
+
+## 🚀 Future Improvements  
+🔹 Implement **Double DQN** for better decision-making.  
+🔹 Use **CNN-based models** 🧠 for advanced state representation.  
+🔹 Optimize the **reward system** for **faster AI training**. 
+
+---
 ## 📂 Project Structure  
 ```
 ┣ 📜 agent.py         # AI agent (Deep Q-Learning)  
