@@ -1,0 +1,10 @@
+Hey everyone! 👋 Have you ever wondered if AI can play the classic Snake game? 🐍 Well, I built an AI-powered Snake game using Deep Q-Learning, where the AI learns from its own mistakes and improves over time! 🚀"
+
+🎯 (0:10 - 0:30) - How It Works
+"The AI observes the game environment, decides its next move, and gets rewarded for good actions—like eating food—or penalized for bad ones, like hitting a wall. Over thousands of games, it learns the best strategy to maximize its score! 📈"
+
+🛠 (0:30 - 0:45) - Technology Used
+"I used Python, Pygame for the game, and Deep Q-Learning for training. The AI starts off making random moves, but with experience replay and neural networks, it becomes a pro at Snake! 🎮"
+
+🚀 (0:45 - 1:00) - Results & Conclusion
+"At first, it struggles, but after training, it outperforms human players! This project showcases the power of Reinforcement Learning in game AI. Want to learn more? Check out the full project! Thanks for watching! 🙌🔥"
